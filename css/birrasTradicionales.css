@@ -1,0 +1,115 @@
+.introduccion{
+    text-align: center;
+    border-bottom: 1px solid rgba(161, 139, 89, 0.2);;
+}
+
+.introduccion h1{
+    font-size: 300%;
+    margin:1% 0 1% 0;
+}
+.introduccion .animate{
+    color: rgb(161, 139, 89);
+    font-weight: bold;
+    font-size: 200%;
+}
+.introduccion p{
+    font-size: 150%;
+}
+
+.introduccion .textproductos{
+    text-align: left;
+    margin: 3% 0 0 3%;
+    font-size: 120%;
+    margin-bottom: 2%;
+}
+
+.producto{
+    width:90%;
+    margin:1% 0 2% 5%;
+    border-bottom:1px solid rgb(161, 139, 89);
+}
+
+.producto .marcaProducto{
+    font-size: 200%;
+    width: 100%;
+}
+.producto div{
+    margin-top:0%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.producto .tipoProducto{
+    font-size: 150%;
+
+}
+
+.producto div .precioProdcto{
+    margin-left: 2%;
+    font-size: 150%;
+}
+
+.stockDisp{
+    margin:0 0 0% 5%;
+    font-size:110%;
+}
+#sinStock{
+    color:red;
+}
+#dispStock{
+    color:green;
+}
+#ultimoSt{
+    color: orangered;
+}
+#pocoSt{
+    color: orange;
+}
+
+.pAddCartMob{
+    margin-bottom:1%;
+}
+.pAddCartMob section{
+}
+.pAddCartMob section .imgCart{
+    height: 50px;
+}
+.pAddCartMob .addCarrito{
+    font-size: 110%;
+    width: 100%;
+}
+.pAddCartMob .addCarrito .cantidad{
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+}
+.addCarrito .enviar{
+    margin-left:3%;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 100%;  
+    color:white;
+    background-color: rgb(60, 107, 168);
+}
+
+@media screen and (max-width:800px) {
+    .producto{
+        margin:2% 0 10% 5%;
+    }
+    .introduccion .textproductos{
+        text-align: center;
+        font-size: 140%;
+    }
+    .introduccion{
+        border-bottom: 1px solid rgb(161, 139, 89);;
+    }
+    .producto div{
+        justify-content: center;
+        margin-left: 0%;
+    }
+
+    .producto .marcaProducto{
+        text-align: center;
+    }

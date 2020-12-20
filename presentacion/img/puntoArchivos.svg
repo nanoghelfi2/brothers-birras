@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="50mm" height="50mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5000 5000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#FEFEFE;stroke-width:20;stroke-miterlimit:22.9256}
+    .fil0 {fill:#FEFEFE}
+    .fil2 {fill:#CCCCCC}
+    .fil1 {fill:#D6AD2D}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <rect x="10437.52" y="-9300.42" width="26140.82" height="18415"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0 str0" cx="2493.87" cy="2506.13" r="2000"/>
+  <path class="fil1" d="M2493.87 506.13c1104.57,0 2000,895.43 2000,2000 0,1104.57 -895.43,2000 -2000,2000 -1104.57,0 -2000,-895.43 -2000,-2000 0,-1104.57 895.43,-2000 2000,-2000z"/>
+  <g style="clip-path:url(#id0)">
+   <image x="10437.52" y="-9300.42" width="26140.82" height="18415" xlink:href="puntoArchivos_Images\puntoArchivos_ImgID1.png"/>
+  </g>
+  <path class="fil2" d="M4493.87 2506.13c0,-1104.57 -895.43,-2000 -2000,-2000 -1104.57,0 -2000,895.43 -2000,2000 0,1104.57 895.43,2000 2000,2000 1104.57,0 2000,-895.43 2000,-2000z"/>
+ </g>
+</svg>

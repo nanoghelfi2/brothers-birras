@@ -1,0 +1,123 @@
+.containerMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.menuDiv{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: rgb(87, 124, 161);
+    margin:5% 0 5% 0%;
+}
+.menuDiv2{
+    background-color: rgb(87, 124, 161);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.text1div{
+    color:white;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+}
+.text2div{
+    color:white;
+}
+.containerMenu #mas{
+    font-weight: bold;
+    margin-left: 1%;
+
+}
+
+.epDiv{
+    background-color: tomato;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+}
+
+.epDiv .epHref{
+    width: 75%;
+    margin-left: 2%;
+}
+
+.epDiv .epEntregado{
+    text-align: center;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(185, 111, 98);
+    border-left: 1px solid black;
+    height: 100%;
+}
+.text3div{
+    color:white;
+    font-size: 550%;
+    font-family: Yu Gothic;
+    line-height: 80px;
+}
+.text4div{
+    color:white;
+    font-size: 800%;
+    line-height: 100px;
+    font-family: Yu Gothic;
+}
+.text5div{
+    color:white;
+    font-size: 450%;
+    font-family: Yu Gothic;
+    line-height: 80px;
+}
+.casaWonder{
+    width: 65px;
+}
+.logoCamion{
+    width: 60px;
+    margin-right: 4%;
+}
+.tituloEntregas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entregaPendiente{
+    margin-bottom:5%;
+}
+
+.stockCuadro{
+    background-color: rgb(224, 224, 224);
+    border-top:1px solid rgb(167, 167, 167);
+    border-bottom:1px solid rgb(167, 167, 167);
+    margin-top:2%;
+}
+.stockCuadro p{
+    margin-left:2%;
+}
+
+.stockCuadro span{
+    margin-left:2%;
+}
+.finEspacio{
+    border-top:1px solid black;
+    margin-bottom:20%;
+}

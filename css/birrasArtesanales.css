@@ -1,0 +1,202 @@
+.introduccion{
+    text-align: center;
+}
+
+.introduccion h1{
+    font-size: 300%;
+    margin:1% 0 1% 0;
+}
+.introduccion .animate{
+    color: rgb(161, 139, 89);
+    font-weight: bold;
+    font-size: 200%;
+}
+.introduccion p{
+    font-size: 150%;
+}
+
+.introduccion .textproductos{
+    text-align: left;
+    margin: 3% 0 0 3%;
+    font-size: 120%;
+    margin-bottom: 2%;
+}
+
+
+.producto{
+    border-top: 1px solid rgba(161, 139, 89, 0.2);
+    margin:1% 0 2% 0%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.producto .marcaProducto{
+    margin-left:5%;
+    font-size: 200%;
+    width: 100%;
+}
+.producto article{
+    box-sizing: border-box;
+    margin-top:1%;
+    width: 26%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    border:1px solid rgba(0, 0, 0, 0.5);
+}
+.producto article:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+    transition: 0.2s;
+}
+.producto article img{
+    height: 95%;
+    width: 40%;
+    object-fit: cover;
+    object-position: center center;
+}
+.producto article .textosDetalles{
+    height: 100%;
+    width: 60%;
+    box-sizing: border-box;
+    font-size: 120%;
+}
+.producto article .textosDetalles .textosDet{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.producto article .textosDetalles .textosDet .tipoProducto{
+ font-size: 110%;
+}
+.producto article .textosDetalles .textosDet .precioProdcto{
+    font-size: 160%;
+   }
+.producto article .textosDetalles .masInfo{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+    border-top:2px solid rgba(0, 0, 0, 0.3);
+    border-left:2px solid rgba(0, 0, 0, 0.3);
+}
+.producto article .textosDetalles .masInfo:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+    height: 21%;
+    width: 101%;
+    transition: 0.4s;
+}
+.producto article .textosDetalles .masInfo img{
+    width: auto;
+    height: 50%;
+}
+.producto article .textosDetalles .masInfo p{
+    margin-top:2%;
+}
+
+.pAddCartMob{
+    height: 30%;
+    display:flex;
+    align-items: center;
+}
+.pAddCartMob div{
+    width: 30%;
+}
+.pAddCartMob div .imgCart{
+    width: 80%;
+    height: 50px;
+}
+
+.productosArt1{
+    border:1px solid black;
+    height: 200px;
+}
+.productosArt1 article{
+    border:1px solid blue;
+    height: 90%;
+    width: 33%;
+}
+
+ol li{
+    font-weight: bold;
+    margin-top: 1%;
+    
+}
+
+.cuadroAccRapido{
+    width: 40%;
+    border:1px solid rgb(88, 88, 88);
+    min-height: 100px;
+    float: left;
+    margin-right: 3%;
+    padding: 1%;
+}
+.cuadroAccRapido li{
+    margin-top:3%;
+    margin-bottom:2%;
+}
+h1{
+    font-size: 250%;
+}
+@media screen and (min-width:1400px) {
+    .producto article{
+        height: 300px;
+        width: 22%;
+    }
+}
+@media screen and (max-width:1250px) {
+    .pAddCartMob div{
+        width: 30%;
+    }
+    .pAddCartMob div .imgCart{
+        height: 40%;
+        width: 90%;
+    }
+}
+@media screen and (max-width:950px) {
+    .producto article{
+        width: 30%;
+    }
+}
+@media screen and (max-width:750px) {
+    .cuadroAccRapido{
+        width: 100%;
+        float:none;
+    }
+    .producto article{
+        width: 48%;
+    }
+    .introduccion .textproductos{
+        text-align: center;
+        margin-bottom:5%;
+        width: 95%;
+        margin-left:2.5%;
+    }
+}
+@media screen and (max-width:450px) {
+    .producto article{
+        width: 95%;
+        height: 200px;
+        margin-bottom:2%;
+        display:flex;
+    }
+    .producto article img{
+        width: 40%;
+        height: 100%;
+    }
+    .producto article .textosDetalles{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 120%;
+    }
+
+}

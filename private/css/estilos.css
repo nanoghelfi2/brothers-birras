@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Quicksand');
+body{
+    background-color:#f8f8f8;
+	height: 100%;
+}
+html{
+	height: 100%;
+}
+*{
+	margin:0;
+	border:0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+.containerTodo{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.volverInicio{
+	border:1px solid black;
+	background-color:lightsteelblue;
+	position: fixed;
+	bottom:0%;
+	left:0%;
+	font-size: 140%;
+	padding: 5px;
+}
+
+.subrayar{
+	text-decoration: underline;
+}
+
+.negrita{
+	font-weight: bold;
+}
+
+
+/* ALERTA DE ERROR */
+.alertError{
+	font-weight: bold;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: salmon;
+	border:1px solid black;
+	width: 100%;
+}
+
+
+/* ALERTA DE CONFIRMACION PARA BORRAR DATOS */
+.alertaConfirmar{
+	box-sizing: border-box;
+	border:1px solid black;
+	text-align: center;
+}
+.alertaConfirmar .botons{
+	display: flex;
+	justify-content: space-evenly;
+	margin:3% 0 3% 0;
+}
+.alertaConfirmar .botons input{
+	font-weight: bold;
+	border:1px solid black;
+	width: 130px;
+	height: 30px;
+	font-size: 100%;
+}
+.alertaConfirmar .botons .acept{
+	background-color: tomato;
+}
+.alertaConfirmar .botons .deny{
+	background-color: steelblue;
+}
+
+.botonAtras{
+	align-self: flex-start;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	background-color: royalblue;
+	color:white;
+}
+.botonAtras img{
+	width: 50%;
+}

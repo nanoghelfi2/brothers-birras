@@ -1,0 +1,168 @@
+.inputA{
+    border:1px solid black;
+    width: 50px;
+}
+.containerDos{
+    font-size: 120%;
+    width: 100%;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerDos p{
+    margin-top: 2%;
+}
+.containerDos form{
+    margin-bottom: 2%;
+}
+.containerDos select{
+    font-size: 100%;
+    border:1px solid black;
+    margin:1% 0 4% 0;
+}
+#enviarSubmit{
+    border:1px solid grey;
+    height: 30px;
+}
+
+
+#listadoC{
+    box-sizing: border-box;
+	border:2px solid black;
+    width: 99%;
+	border-collapse: collapse;
+	text-align: center;
+    margin-bottom: 15%;
+}
+#listadoC th, td {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+
+.aclarar{
+    font-size: 115%;
+    margin-bottom: 0.5%;
+}
+#separador{
+    margin-top: 1%;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.botomEnviar{
+    border:1px solid black;
+    widows: 40%;
+    height: 30px;
+    font-weight: bold;
+    margin-bottom: 20%;
+}
+.borrarExistente{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 80px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: rgb(211, 178, 178);
+    font-weight: bold;
+}
+.botonBorrar{
+    height: 25px;
+    width: 100px;
+    font-weight: bold;
+    background-color: tomato;
+    border:1px solid black;
+}
+
+
+.borar{
+    background-color: rgb(111, 0, 30);
+}
+
+.cambiosWonderlist{
+    margin: 0 0 3% 5%;
+}
+
+.cambiosWonderlist input{
+    border:1px solid black;
+    margin-top: 3%;
+    width: 50%;
+}
+.cambiosWonderlist label{
+    display: inline-block;
+    width: 40%;
+  }
+  .cambiosWonderlist .boton{
+    font-weight: bold;
+    margin-left: 20%;
+    height: 30px;
+    background-color: rgb(140, 184, 255);
+  }
+
+.VolverProducto input{
+    border:1px solid black;
+    font-weight: bold;
+    font-size: 100%;
+    width: 50%;
+    height: 35px;
+    margin-left: 25%;
+    margin-top:5%;
+}
+
+.agregaMarca{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    margin-top:1%;
+}
+.pasosCir{
+    border:1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.agregaMarca form input{
+    border:1px solid black;
+    margin-bottom: 5%;
+    width: 50%;
+    font-weight: bold;
+}
+.agregaMarca form select{
+    margin:3% 0 5% 0;
+    border:1px solid black;
+    width: 50%;
+}
+.agregaMarca form label{
+    display: inline-block;
+    width: 40%;
+    margin-left:5%;
+}
+
+.agregarProd{
+    background-color: rgb(37, 133, 45);
+    color:white;
+    position: absolute;
+    top:0%;
+    right: 0%;
+    height: 55px;
+    width: 150px;
+    display: flex;
+}
+.agregarProd #mas{
+    width: 30%;
+    font-size: 300%;
+}
+.agregarProd #text{
+    width: 70%;
+    font-size: 130%;
+}

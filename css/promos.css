@@ -1,0 +1,74 @@
+.promos{
+    text-align: center;
+    border:1px solid rgba(161, 139, 89, 0.5);
+    margin-top:2%;
+    width: 50%;
+    height: 200px;
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.promos h2{
+    width: 100%;
+    font-size: 200%;
+}
+.promos p{
+    font-size: 150%;
+}
+.promos .comboNormWidth{
+    width: 100%;
+}
+
+
+
+.tupack h2{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textoCombo{
+    display:flex;
+    height: 70%;
+}
+.textoCombo #descuentoT{
+    width: 40%;
+    font-weight: bold;
+}
+.textoCombo #descuentoT span{
+    font-size:350%;
+    line-height : 85px;
+}
+.textoCombo #descripcionT{
+    width: 60%;
+}
+
+
+@media screen and (max-width:1200px) {
+    .promos{
+        height: 200px;
+    }
+
+}
+@media screen and (max-width:900px) {
+    .promos{
+        width: 60%;
+        margin-left: 20%;
+    }
+    @media screen and (max-width:700px) {
+        .promos{
+            width: 100%;
+            margin-left: 0%;
+        }
+}
+
+@media screen and (max-width:400px) {
+    .promos h2{
+        font-size: 150%;
+    }
+    .promos p{
+        font-size: 100%;
+    }
+}

@@ -1,0 +1,65 @@
+.popupContainer{
+position: fixed;
+background-color: rgba(0, 0, 0, 0.6);
+width: 100%;
+height: 100%;
+
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.cuadroContenedor{
+    width: 600px;
+    height: 450px;
+
+    background-color: rgb(124, 111, 100);
+}
+
+.cuadroContenedor .logo{
+    height: 40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadroContenedor .logo img{
+    height: 100%;
+}
+
+.cuadroContenedor .textos{
+    color: black;
+    text-align: center;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.cuadroContenedor .textos .confirmacion{
+    display:flex;
+    justify-content: space-evenly;
+}
+.cuadroContenedor .textos .confirmacion input{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+    font-weight: bold;
+    font-size: 110%;
+
+    margin:4% 0 10% 0;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.cuadroContenedor .textos .confirmacion .noedad{
+    background-color: rgb(177, 77, 77);
+}
+.cuadroContenedor .textos .confirmacion .siedad{
+    background-color: rgb(77, 177, 77);
+}
+

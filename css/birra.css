@@ -1,0 +1,227 @@
+.pedido{
+    display:inline-block;
+    text-align: center;
+    width: 70%;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin-left:15%;
+    margin-bottom:20%;
+    font-size: 130%;
+    border:1px solid black;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.birra{
+    display:flex;
+    width: 100%;
+    height: 100%;
+}
+
+.birra .birraImg{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.birra .birraImg img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.birra .birraInfo{
+    width: 48%;
+}
+.birra .birraInfo h1{
+    font-size: 300%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom:1%;
+}
+.birra .birraInfo p{
+    margin-top: 1%;
+    font-size: 110%;
+}
+.birra .birraInfo #descripcion{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 120%;
+    padding-top:1%;
+    padding-bottom:1%;
+    border-top: 1px solid rgba(161, 139, 89, 0.2);
+    border-bottom: 1px solid rgba(161, 139, 89, 0.2);
+}
+.birraMobile{
+    display:none;
+}
+.tituloMobile{
+    display:none;
+}
+#disponible{
+    color:green;
+}
+#cinco{
+    color:orange;
+}
+#cuatro{
+    color:rgb(255, 94, 0);
+}
+#ultimas{
+    color:red;
+}
+
+.pAddCart{
+    margin-top:1%;
+    display:flex;
+    align-items: center;
+    width: 100%;
+}
+.pAddCart p{
+    display:flex;
+    align-items: center;
+}
+.pAddCart img{
+    height: 30px;
+}
+.addCarrito{
+    margin-left:1%;
+    width: 70%;
+}
+.addCarrito .cantidad{
+    font-size: 100%;
+    font-weight: bold;
+    width: 50px;
+    height: 25px;
+    border:1px solid black;
+}
+.addCarrito .botonCant{
+    background-color: transparent;
+    border-radius: 5px;
+    color:white;
+    height: 40px;
+    width: 40px;
+    padding:0%;
+    line-height: 0%;
+    font-weight: bold;
+    font-size: 130%;
+}
+.addCarrito .enviar{
+    height: 35px;
+    border-radius: 5px;
+    font-size: 100%;  
+    margin-left: 1%;
+    color:white;
+    background-color: seagreen;
+}
+
+@media screen and (max-width:1024px) {
+    .birra .birraInfo{
+        font-size: 120%;
+    }
+    .birra .birraImg{
+        height: 75%;
+    }
+}
+}
+@media screen and (max-width:768px) {
+    .birra .birraInfo{
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width:600px) {
+.birra{
+    display:none;
+}
+.tituloMobile{
+    display:block;
+    font-size: 250%;
+    text-align: center;
+    margin:2% 0 1% 0;
+}
+.birraMobile{
+    display:flex;
+    flex-wrap: wrap;
+}
+.birraMobile .birraImg{
+    width: 40%;
+    height: 50%;
+}
+.birraMobile .birraImg img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.birraMobile .birraInfo{
+    width: 60%;
+}
+.birraMobile .birraInfo h1{
+    font-size: 300%;
+    margin-top:10%;
+}
+.birraMobile .birraInfo p{
+    margin-top:7%;
+    font-size: 130%;
+}
+.birraMobile #descripcion{
+    font-size: 140%;
+    text-align: center;
+    width: 95%;
+    margin-top:2.5%;
+    margin-left:2.5%;
+    margin-bottom:5%;
+    border-top: 1px solid rgba(161, 139, 89, 0.2);
+    border-bottom: 1px solid rgba(161, 139, 89, 0.2);
+}
+.pedido{
+    width: 90%;
+    margin-left:5%;
+}
+.pAddCartMob{
+margin-top:5%;
+margin-left:5%;
+border-top:1px solid rgba(161, 139, 89, 0.2);
+}
+.pAddCartMob img{
+    height: 40px;
+}
+.pAddCartMob p{
+    display:flex;
+    align-items: center;
+    font-size: 150%;
+    margin-bottom:3%;
+}
+.addCarrito{
+    margin-left:0%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 110%;
+}
+.addCarrito .cantidad{
+    box-sizing: border-box;
+    width: 30%;
+    height: 40px;
+    padding:0%;
+    text-align: center;
+    border:1px solid rgba(161, 139, 89, 0.8);
+    margin-top:2%;
+}
+.addCarrito .botonCant{
+    background-color: rgb(3, 127, 199);
+    border-radius: 50%;
+    color:white;
+    height: 60px;
+    width: 60px;
+    font-weight: bold;
+    font-size: 150%;
+}
+.addCarrito .enviar{
+    background-color: seagreen;
+    width: 80%;
+    margin-top:5%;
+    margin-bottom:10%;
+    margin-left:0;
+    height: 60px;
+    font-size:120%
+}
+}

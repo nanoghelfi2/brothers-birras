@@ -1,0 +1,26 @@
+footer{
+    margin-top:5%;
+    width: 100%;
+    box-sizing: border-box;
+    border-top:1px solid rgb(61, 61, 61);
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .bbMod{
+    margin-top: 1%;
+    width: 100%;
+    align-self: flex-start;
+    text-align: center;
+}
+
+footer .mail{
+    align-self: flex-end;
+}
+footer .avisoCookie{
+    margin-left: 3%;
+    width: 100%;
+}

@@ -1,0 +1,68 @@
+.bienvenida{
+    position: fixed;
+    height: calc(100% - 40px);
+}
+.bienvenida h1{
+    text-align: center;
+    font-size: 300%;
+    margin-top: 50px;
+}
+
+.bienvenida #presentacion{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 130%;
+    text-align: center;
+    margin-top: 20px;
+}
+.botones{
+    display:flex;
+    justify-content: space-evenly;
+}
+.botones button{
+    padding-left:2%;
+    padding-right: 2%;
+    height: 35px;
+
+    font-size: 110%;
+    font-weight: 400;
+    margin-top:15%;
+    background-color: #2f7bbd;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+
+/**************   POPUP   **************/
+
+#popup{
+    width: 50%;
+    position: fixed;
+    left: 20%;
+    bottom:5%;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+#popup p{
+    background-color: rgb(22, 22, 22);
+    font-family: 'Overpass', sans-serif;
+    border:1px solid rgb(0, 0, 0);
+    padding: 1%;
+    text-align: center;
+    font-size: 130%;
+}
+#popup p button{
+    font-family: 'Overpass', sans-serif;
+    color:white;
+    font-size: 100%;
+    border-radius: 5px;
+    background-color: rgb(0, 153, 255);
+    width: 130px;
+    height: 35px;
+    margin:2% 0 1% 0;
+}
+#popup #flechaRoja{
+    width: 15%;
+    margin-left: -25%;
+}

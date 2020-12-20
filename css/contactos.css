@@ -1,0 +1,29 @@
+.logoWpp{
+   width: 50px;
+}
+#whatsapp{
+    font-size: 250%;
+
+}
+.introduccion .textproductos2{
+    text-align: left;
+    margin: -1.5% 0 0 3%;
+    font-size: 120%;
+    margin-bottom: 2%;
+}
+.logoFb{
+    width: 100px;
+    margin-right: 3%;
+ }
+ .logoInst{
+    width: 100px;
+ }
+ #click{
+     font-size: 100%;
+ }
+
+ .chat{
+     display:inline-block;
+     margin-left: 1%;
+     color:green;
+ }

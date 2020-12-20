@@ -1,0 +1,45 @@
+.avisoLegal{
+    position: fixed;
+    bottom:0%;
+    left:0%;
+    min-height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botonAceptar{
+    color:white;
+    background-color:rgb(0, 119, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 95%;
+}
+
+.avisoDeCookies{
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.avisoDeCookies h1{
+    text-align: center;
+}
+.avisoDeCookies h2{
+    text-align: center;
+}
+.avisoDeCookies p{
+    font-size: 120%;
+}
+.avisoDeCookies a{
+    font-size: 150%;
+}
